@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8" />
+
+
+    
+    <style>
+        /* Estilos de texto y enlaces */
+        body,
+        p,
+        a {
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            color: #333333;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Estilos de la tabla principal */
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+        
+        /* Estilos del header */
+        .header {}
+        
+        /* Estilos del contenido */
+        .content {
+            padding: 20px;
+            text-align: justify;
+        }
+        
+        .content .title {
+            font-size: 32px;
+            font-weight: 700;
+            text-align: center;
+        }
+        
+        .content .title span {
+            padding: 20px;
+            background-color: black;
+            color: white;
+        }
+        
+        /* Estilos del footer */
+        .footer {
+            background-color: #656565;
+            text-align: center;
+        }
+        
+        .footer .title {
+            font-size: 32px;
+            font-weight: 700;
+            text-align: center;
+            color: #ffffff;
+        }
+        
+        .footer .title img {
+            margin-top: 10px;
+        }
+        
+        /* Estilo del botón */
+        .button {
+            display: block;
+             /* Añade el valor de padding */
+            background-color: #ff6600; /* Color de fondo naranja */
+            color: white; /* Color del texto blanco */
+            border: 2px solid #ff6600; /* Borde sólido naranja */
+            text-decoration: none; /* Quita subrayado enlaces */
+            border-radius: 6px; /* Bordes redondeados */
+            cursor: pointer; /* Cambia el cursor al pasar por encima */
+            margin: 0 auto; /* Centra el botón */
+            width: 100%; /* Ancho del botón 100% en pantallas grandes */
+            max-width: 200px; /* Ancho máximo del botón 200px en pantallas pequeñas */
+            position: relative; /* Coloca el botón en una posición relativa */
+            top: 50%; /* Centra el botón verticalmente */
+            transform: translateY(-50%); /* Centra el botón verticalmente */
+            text-align: center;
+            font-size: large;
+            margin-left: auto; /* Centra el botón horizontalmente */
+            margin-right: auto; /* Centra el botón horizontalmente */
+        }
+        
+        /* Estilo al pasar el cursor por encima del botón */
+        .button:hover {
+            background-color: #f06d22; /* Color de fondo naranja al pasar el cursor */
+            border-color: #ff6600; /* Color del borde naranja al pasar el cursor */
+        }
+        .contact-info {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .contact-info img {
+            width: 20px;
+            vertical-align: middle;
+        }
+        
+        .contact-info p {
+            text-align: center; /* Centra el contenido horizontalmente */
+        }
+        
+        .contact-info p img {
+            margin-right: 5px; /* Espacio entre el icono y el texto */
+        }
+        .signature {
+            text-align: center; /* Centra el contenido horizontalmente */
+            color: #fff; /* Cambia el color del texto a blanco */
+            margin-top: 20px;
+        }
+        
+        .signature p {
+            margin-bottom: 5px; /* Agrega un espacio entre las líneas de texto */
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <header>
+        <img src="img/Top.png" alt="" width="1850" height="400"></img>
+    </header>
+    <div class="content">
+        <p>¿Qué tal? Mi nombre es Pablo, soy experto en marketing digital en Go To Market Marketing, agencia de marketing especializada en ayudar a otras agencias a facturar más, fidelizar clientes y facilitar la subcontratación de servicios.</p>
+        <p>Aquí os cuento cómo:</p>
+        <ul>
+            <li>Facturar más al poder incorporar más servicios, tanto en cantidad como en variedad, para vuestros clientes.</li>
+            <li>Menos dolores de cabeza al centralizar el outsourcing de freelancers en una agencia como la nuestra.</li>
+            <li>Fidelizando a vuestros clientes al evitar que se vayan a conocer otras agencias, ya que no ofrecéis un servicio de marketing 360º.</li>
+        </ul>
+        <p>Tras varios años relacionándome con agencias de marketing, observé que podía ayudarles a darme cuenta de que la subcontratación con freelancers da mucho dolor de cabeza y resultados inciertos… Además de que se perdían muchas oportunidades de negocio y clientes al no poder abarcar todos los servicios. Es por eso que os queremos ayudar.</p>
+        <p>Es por eso que me gustaría ofreceros una colaboración en la que todos ganemos: Vosotros como agencia, el cliente por centralizar su marketing en vosotros y nosotros ofreciendo aquellos servicios a los que lleguéis. Nosotros os ofreceríamos tarifas reducidas para que podáis sacar margen de cada proyecto y ejecutaríamos las acciones en vuestro nombre.</p>
+        <a href="#" class="button">Agendar Reunión</a> <!-- Agregar el botón aquí -->
+    </div>
+    <footer>
+        <div class="responsive-image">
+            <img src="img/Img.png" alt="Imagen" width="100%" style="max-width: 100%;" />
+        </div>
+        <div class="contact-info">
+            <img src="img/correo-electronico.png" alt="Correo Electrónico" /> info@gotomarket.marketing
+            <img src="img/whatsapp.png" alt="WhatsApp" /> +34 638 045 037
+        </div>
+        <div class="signature">
+            <p><b>Go To Market Marketing</b></p>
+            <p><b>Pablo Rodríguez</b></p>
+            <p><b>Experto en Marketing Digital</b></p>
+        </div>
+    </footer>
+</body>
+</html>
